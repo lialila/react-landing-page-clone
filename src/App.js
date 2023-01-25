@@ -41,6 +41,7 @@ const navBar = css`
     float: right;
     padding: 0 0 0 330px;
   }
+
   .logo,
   li {
     list-style-type: none;
@@ -58,8 +59,9 @@ const navBar = css`
 `;
 const h1Wrapper = css`
   background-color: black;
-  color: white;
   h1 {
+    color: white;
+
     font-family: 'Arial';
     font-weight: 1000;
     letter-spacing: -2px;
@@ -69,10 +71,27 @@ const h1Wrapper = css`
     }
   }
   p {
+    color: white;
     font-family: 'Inter', sans-serif;
     font-weight: 600;
     font-size: 25px;
     line-height: 1.6;
+  }
+  button {
+    border-radius: 30px;
+    align-items: center;
+    padding: 20px 20px;
+    width: 230px;
+    height: 60px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 1000;
+    font-size: 17px;
+    //.white {
+    color: #e63963;
+  }
+  button.red {
+    background-color: #e63963;
+    color: white;
   }
 `;
 
@@ -112,8 +131,8 @@ function App() {
             Join the movement, become a superfan.
           </p>
           <img src="/images/index-image.png" />
-          <button id="white">DISCOVER MUSIC</button>
-          <button id="red">PROMOTE MUSIC</button>
+          <button className="white">DISCOVER MUSIC</button>
+          <button className="red">PROMOTE MUSIC</button>
         </div>
       </main>
       <footer>Some info</footer>
