@@ -25,8 +25,6 @@ root.render(
         ::after,
         ::before {
           box-sizing: border-box;
-          // text-decoration: none;
-          // ondo 700,circular book 400, circular 400 500 700 900,arial 400
         }
       `}
     />
@@ -37,4 +35,4 @@ root.render(
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))
 // or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
+await reportWebVitals();
