@@ -194,12 +194,11 @@ const partLeft = css`
 
 const partRight = css`
   display: flex;
-  margin-bottom: 20px;
   justify-content: space-between;
   flex-direction: flex-end;
   padding: 170px 0;
   max-width: 1200px;
-  margin: 20px 250px;
+  margin: 20px 250px 20px;
   text-align: right;
   img {
     width: 22rem;
@@ -405,7 +404,7 @@ function App() {
             </h3>
             <p css={pStyle}>
               Explore a feed of new music you haven't
-              <br /> heard before – guaranteed.
+              <br /> heard before - guaranteed.
             </p>
           </div>
         </section>
@@ -479,7 +478,7 @@ function App() {
               src="https://uploads-ssl.webflow.com/630e348760dd00665a03452e/630e348760dd00bdac034589_5.jpg"
               alt="001"
             />{' '}
-            <p>"Easy to get lost and pass time like TikTok.” – Mike</p>
+            <p>"Easy to get lost and pass time like TikTok.” - Mike</p>
           </div>
           <div css={boxes}>
             <img
@@ -507,7 +506,7 @@ function App() {
               src="https://uploads-ssl.webflow.com/630e348760dd00665a03452e/630e348760dd0026e9034587_7.jpg"
               alt="003"
             />
-            <p>"HotDrop is the ONLY way I listen to new music.” – Rachel"</p>
+            <p>"HotDrop is the ONLY way I listen to new music.” - Rachel"</p>
           </div>
         </section>
       </main>
