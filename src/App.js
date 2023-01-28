@@ -6,7 +6,6 @@ const bodyStyle = css`
   background-image: url('https://uploads-ssl.webflow.com/630e348760dd00665a03452e/63491d729c6a15033540e97e_Group%201113%20(2).png');
   background-color: black;
   background-repeat: no-repeat;
-  background-position: 75%;
   background-size: 560px;
   background-position: 730px 130px;
   color: white;
@@ -49,7 +48,6 @@ const navBar = css`
   ul {
     display: flex;
     gap: 140px;
-    /* position: relative; */
     float: right;
     padding: 0 0 0 380px;
   }
@@ -61,14 +59,12 @@ const navBar = css`
 
   img {
     font-size: 20px;
-    // letter-spacing: 0.7px;
   }
 
   li:hover {
     text-decoration: underline;
     transition-delay: text-decoration 3s;
     padding: 3px 0 0;
-    // box-shadow: 1px 2px 12px #e63963;
   }
 `;
 
@@ -89,7 +85,6 @@ const h1Wrapper = css`
   display: flex;
   justify-content: space-between;
   flex-direction: column;
-  flex-flow: column wrap;
 
   span {
     color: #e63963;
@@ -186,7 +181,6 @@ const h3LeftStyle = css`
 const partLeft = css`
   display: flex;
   justify-content: space-between;
-  //flex-direction: flex-column;
   padding: 170px 0;
   max-width: 1200px;
   margin: 0 250px 20px 250px;
@@ -223,12 +217,11 @@ const partRight = css`
 
 const partRight1 = css`
   display: flex;
-  margin-bottom: 20px;
   justify-content: space-between;
   flex-direction: flex-end;
   padding: 170px 0;
   max-width: 1200px;
-  margin: 20px 250px;
+  margin: 20px 250px 20px;
   text-align: right;
 
   h3 {
@@ -247,7 +240,6 @@ const partRight1 = css`
 const test = css`
   display: flex;
   flex-direction: row;
-  // align-items: center;
 `;
 
 const boxes = css`
@@ -257,7 +249,6 @@ const boxes = css`
   width: 340px;
   height: 90px;
   margin: 10px 0;
-  // padding-right: 10px;
   justify-content: space-between;
 
   img {
