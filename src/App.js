@@ -393,8 +393,7 @@ function App() {
           <div>
             <img
               src="https://uploads-ssl.webflow.com/630e348760dd00665a03452e/6310b8256fb391d0b5907328_Genres-2_iphone13midnight_portrait-p-500.png"
-              alt=""
-              genres
+              alt="genres"
             />
           </div>
           <div>
